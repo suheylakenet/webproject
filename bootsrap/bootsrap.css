@@ -1,0 +1,995 @@
+:root {
+
+    /*Margin & Padding*/
+    --mp5: 10px;
+    --mp4: 8px;
+    --mp3: 6px;
+    --mp2: 4px;
+    --mp1: 2px;
+    --mp0: 0px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    display: flex;
+}
+
+
+.sidebar {
+    width: 240px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #455b8d;
+    padding-top: 20px;
+}
+
+.sidebar h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 5px;
+    text-align: center;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    background-color: #ff0000;
+}
+
+.boostrap {
+    font-size: 14px;
+
+}
+
+
+
+/* İçerik stil */
+.content {
+    margin-left: 300px;
+    padding: 20px;
+}
+
+.content h1 {
+    color: #333;
+}
+
+/* GRİD KISMI */
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+
+}
+
+.col-1 {
+    grid-column-start: span 1;
+    background-color: #455b8d;
+    color: white;
+}
+
+.col-2 {
+    grid-column-start: span 2;
+    background-color: #455b8d;
+    color: white;
+}
+
+.col-3 {
+    grid-column-start: span 3;
+    background-color: #455b8d;
+    color: white;
+}
+
+.col-4 {
+    grid-column-start: span 4;
+    background-color: #455b8d;
+    color: white;
+}
+
+.col-5 {
+    grid-column-start: span 5;
+    background-color: #455b8d;
+    color: white;
+}
+
+.col-6 {
+    grid-column-start: span 6;
+    background-color: #455b8d;
+    color: white;
+}
+
+.col-7 {
+    grid-column-start: span 7;
+    background-color: #455b8d;
+    color: white;
+}
+
+.col-8 {
+    grid-column-start: span 8;
+    background-color: #455b8d;
+    color: white;
+}
+
+.col-9 {
+    grid-column-start: span 9;
+    background-color: #455b8d;
+    color: white;
+}
+
+.col-10 {
+    grid-column-start: span 10;
+    background-color: #455b8d;
+    color: white;
+}
+
+.col-11 {
+    grid-column-start: span 11;
+    background-color: #455b8d;
+    color: white;
+}
+
+.col-12 {
+    grid-column-start: span 12;
+    background-color: #455b8d;
+    color: white;
+}
+
+/*color kısmı  */
+.bg-red {
+    background-color: #be0404 !important;
+}
+
+.txt-red {
+    color: #f83838 !important;
+    text-shadow: 1px 1px 2px #28262693;
+}
+
+.btn-red:hover {
+    background-color: #f83838 !important;
+}
+
+/* 2.renk green */
+.bg-green {
+    background-color: rgb(5, 105, 5);
+}
+
+.txt-green {
+    color: rgb(99, 110, 99) !important;
+    text-shadow: 1px 1px 2px #28262693;
+}
+
+.btn-green:hover {
+    background-color: rgb(99, 110, 99) !important;
+}
+
+/* 3.renk blue */
+.bg-blue {
+    background-color: rgb(35, 35, 228);
+}
+
+.txt-blue {
+    color: rgb(167, 167, 213) !important;
+    text-shadow: 1px 1px 2px #28262693;
+}
+
+.btn-blue:hover {
+    background-color: rgb(167, 167, 213) !important;
+}
+
+/* 4.renk pink */
+.bg-pink {
+    background-color: rgb(232, 51, 199);
+}
+
+.txt-pink {
+    color: rgb(191, 126, 162) !important;
+    text-shadow: 1px 1px 2px #28262693;
+}
+
+.btn-pink:hover {
+    background-color: rgb(191, 126, 162) !important;
+}
+
+/* 5.renk turuncu */
+.bg-orange {
+    background-color: rgb(187, 70, 7);
+}
+
+.txt-orange {
+    color: rgb(193, 107, 60) !important;
+    text-shadow: 1px 1px 2px #28262693;
+}
+
+.btn-orange:hover {
+    background-color: rgb(193, 107, 60) !important;
+}
+
+/* 6.renk siyah */
+.bg-black {
+    background-color: rgb(32, 30, 30);
+}
+
+.txt-black {
+    color: rgb(84, 81, 81) !important;
+    text-shadow: 1px 1px 2px #28262693;
+}
+
+.btn-black:hover {
+    background-color: rgb(84, 81, 81) !important;
+}
+
+/* 7.renk kahverengi */
+.bg-brown {
+    background-color: rgb(89, 23, 23);
+}
+
+.txt-brown {
+    color: rgb(83, 68, 68) !important;
+    text-shadow: 1px 1px 2px #28262693;
+}
+
+.btn-brown:hover {
+    background-color: rgb(83, 68, 68) !important;
+}
+
+/* 8.renk sarı*/
+.bg-yellow {
+    background-color: rgb(231, 231, 65);
+}
+
+.txt-yellow {
+    color: rgb(200, 200, 158) !important;
+    text-shadow: 1px 1px 2px #28262693;
+}
+
+.btn-yellow:hover {
+    background-color: rgb(200, 200, 158) !important;
+}
+
+/* 9.renk gri */
+.bg-grey {
+    background-color: rgb(148, 147, 147);
+}
+
+.txt-grey {
+    color: rgb(195, 191, 191) !important;
+    text-shadow: 1px 1px 2px #28262693;
+}
+
+.btn-grey:hover {
+    background-color: rgb(195, 191, 191) !important;
+}
+
+/* 10.renk mor*/
+.bg-purple {
+    background-color: rgb(145, 31, 145);
+}
+
+.txt-purple {
+    color: rgb(147, 109, 147) !important;
+    text-shadow: 1px 1px 2px #28262693;
+}
+
+.btn-purple:hover {
+    background-color: rgb(195, 191, 191) !important;
+}
+
+/* 3.text-size - header-size*/
+
+
+.font-size1 {
+    font-size: 14px;
+}
+
+.font-size2 {
+    font-size: 16px;
+}
+
+.font-size3 {
+    font-size: 18px;
+}
+
+.font-size4 {
+    font-size: 20px;
+}
+
+.font-size5 {
+    font-size: 22px;
+}
+
+.font-size6 {
+    font-size: 24px;
+}
+
+.font-size7 {
+    font-size: 26px;
+}
+
+.font-size8 {
+    font-size: 28px;
+}
+
+.font-size9 {
+    font-size: 30px;
+}
+
+.font-size10 {
+    font-size: 32px;
+}
+
+/* başlık font-size  */
+.font-size-h1 {
+    font-size: 50px;
+}
+
+.font-size-h2 {
+    font-size: 40px;
+}
+
+.font-size-h3 {
+    font-size: 30px;
+}
+
+.font-size-h4 {
+    font-size: 20px;
+}
+
+.font-size-h5 {
+    font-size: 15px;
+}
+
+/* font-family */
+.font-family-verd {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.font-family-calibri {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.font-family-times {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.font-family-arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-family-monoco {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* 5margin ve pading */
+.m0 {
+    margin: var(--mp0);
+    padding: var(--mp0);
+}
+
+.m1 {
+    margin: var(--mp1);
+    padding: var(--mp1);
+}
+
+.ml2 {
+    margin-left: var(--mp2);
+    padding-left: var(--mp2);
+}
+
+.mt3 {
+    margin-top: var(--mp3);
+    padding-top: var(--mp3);
+}
+
+.mb4 {
+    margin-bottom: var(--mp4);
+    padding-bottom: var(--mp4);
+}
+
+.mr5 {
+    margin-right: var(--mp5);
+    padding-right: var(--mp5);
+}
+
+
+/* 6slider */
+.slider1 {
+
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    border: 2px solid #ccc;
+    overflow: hidden;
+}
+
+.slider1-bg {
+
+    width: 400%;
+    left: 0px;
+
+    animation: slide infinite linear;
+    animation-duration: 15s;
+}
+
+.slider1-img {
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0px);
+    }
+
+    10% {
+        transform: translateX(0px);
+    }
+
+    25% {
+        transform: translateX(-800px);
+    }
+
+    35% {
+        transform: translateX(-800px);
+    }
+
+    50% {
+        transform: translateX(-1600px);
+    }
+
+    60% {
+        transform: translateX(-1600px);
+    }
+
+    75% {
+        transform: translateX(-2400px);
+    }
+
+    85% {
+        transform: translateX(-2400px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+/* 2.slider */
+
+.slider2 {
+
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    border: 2px solid #ccc;
+    overflow: hidden;
+}
+
+.slider2-bg {
+
+    height: 400%;
+    left: 0px;
+
+    animation: slider2 infinite linear;
+    animation-duration: 10s;
+}
+
+.slider2-img {
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+
+@keyframes slider2 {
+    0% {
+        transform: translateY(0px);
+    }
+
+    10% {
+        transform: translateY(0px);
+    }
+
+    25% {
+        transform: translateY(-300px);
+    }
+
+    35% {
+        transform: translateY(-300px);
+    }
+
+    50% {
+        transform: translateY(-600px);
+    }
+
+    60% {
+        transform: translateY(-600px);
+    }
+
+    75% {
+        transform: translateY(-900px);
+    }
+
+    85% {
+        transform: translateY(-900px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* 3.slider */
+.slider3 {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    border: 2px solid #ccc;
+    overflow: hidden;
+}
+
+.slider3-bg {
+    width: 100%;
+    height: 400%; 
+
+    animation: slider3 10s infinite linear;
+}
+
+.slider3-img {
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+
+@keyframes slider3 {
+    0% {
+        transform: translateY(-900px); 
+    }
+
+    10% {
+        transform: translateY(-900px);
+    }
+
+    25% {
+        transform: translateY(-600px); 
+    }
+
+    35% {
+        transform: translateY(-600px);
+    }
+
+    50% {
+        transform: translateY(-300px); 
+    }
+
+    60% {
+        transform: translateY(-300px);
+    }
+
+    75% {
+        transform: translateY(0px); 
+    }
+
+    85% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-900px); 
+    }
+}
+
+
+/* 7 tablolar */
+.table-container {
+    overflow-x: auto;
+}
+
+.responsive-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+.responsive-table th,
+.responsive-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .responsive-table thead {
+        display: none;
+    }
+
+    .responsive-table tr {
+        border-bottom: 2px solid #ccc;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .responsive-table td {
+        border: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .responsive-table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        margin-right: 10px;
+    }
+}
+
+/* bordered tablo */
+.bordered-table {
+    border: 2px solid gray;
+
+}
+
+.bordered-table th,
+.bordered-table td {
+    padding: var(--mp1);
+    border: 2px solid;
+    text-align: left;
+    background-color: white;
+}
+
+.color {
+    background-color: red;
+}
+
+.striped-table {
+    width: 100%;
+}
+
+.striped-table th,
+.striped-table td {
+    padding: 10px;
+    border-bottom: 2px solid black;
+    text-align: left;
+}
+
+.striped-table tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+/* Hoverable Tablo */
+.hoverable-table {
+    width: 100%;
+}
+
+.hoverable-table th,
+.hoverable-table td {
+    padding: 10px;
+    border-bottom: 2px solid gray;
+    text-align: left;
+}
+
+.hoverable-table tbody tr:hover {
+    background-color: rgb(36, 123, 140);
+}
+
+/* 8resim */
+.image1 {
+    width: 100%;
+}
+
+.image2 {
+    width: 100%;
+    border-radius: 30%;
+}
+
+/* 9 buton */
+.but-2 {
+    background-color: rgb(119, 124, 189, 0.2);
+    color: black;
+    border-radius: 4px;
+    padding: 2px 20px;
+    font-weight: bold;
+    border: 3px solid rgb(119, 124, 189);
+}
+
+.but-2:hover {
+    background-color: rgb(119, 124, 189);
+    color: white;
+    font-weight: bold;
+}
+
+.but-3 {
+    background-color: rgb(105, 169, 81, 0.2);
+    color: black;
+    border-radius: 6px;
+    padding: 2px 22px;
+    font-weight: bold;
+    border: 3px solid rgb(105, 169, 81);
+}
+
+.but-3:hover {
+    background-color: rgb(105, 169, 81);
+    color: rgb(238, 237, 237);
+    font-weight: bold;
+}
+
+.but-4 {
+    background-color: rgb(198, 89, 89, 0.2);
+    color: black;
+    border-radius: 6px;
+    padding: 2px 22px;
+    font-weight: bold;
+    border: 3px solid rgb(198, 89, 89);
+}
+
+.but-4:hover {
+    background-color: rgb(198, 89, 89);
+    color: rgb(238, 237, 237);
+    font-weight: bold;
+}
+
+.but-5 {
+    background-color: rgb(128, 190, 190, 0.2);
+    color: black;
+    border-radius: 6px;
+    padding: 2px 22px;
+    font-weight: bold;
+    border: 3px solid rgb(128, 190, 190);
+}
+
+.but-5:hover {
+    background-color: rgb(128, 190, 190);
+    color: rgb(238, 237, 237);
+    font-weight: bold;
+}
+
+.but-6 {
+    background-color: rgb(224, 191, 216, 0.2);
+    color: black;
+    border-radius: 6px;
+    padding: 2px 22px;
+    font-weight: bold;
+    border: 3px solid rgb(224, 191, 216);
+}
+
+.but-6:hover {
+    background-color: rgb(224, 191, 216);
+    color: rgb(238, 237, 237);
+    font-weight: bold;
+}
+
+.but-7 {
+    background-color: rgb(125, 97, 158, 0.2);
+    color: black;
+    border-radius: 6px;
+    padding: 2px 22px;
+    font-weight: bold;
+    border: 3px solid rgb(125, 97, 158);
+}
+
+.but-7:hover {
+    background-color: rgb(125, 97, 158);
+    color: rgb(238, 237, 237);
+    font-weight: bold;
+}
+
+.but-8 {
+    background-color: rgb(203, 199, 143, 0.2);
+    color: black;
+    border-radius: 6px;
+    padding: 2px 22px;
+    font-weight: bold;
+    border: 3px solid rgb(203, 199, 143);
+}
+
+.but-8:hover {
+    background-color: rgb(203, 199, 143);
+    color: rgb(238, 237, 237);
+    font-weight: bold;
+}
+
+.but-9 {
+    background-color: rgb(227, 129, 160, 0.2);
+    color: black;
+    border-radius: 6px;
+    padding: 2px 22px;
+    font-weight: bold;
+    border: 3px solid rgb(227, 129, 160);
+}
+
+.but-9:hover {
+    background-color: rgb(227, 129, 160);
+    color: rgb(238, 237, 237);
+    font-weight: bold;
+}
+
+.but-10 {
+    background-color: rgb(83, 82, 82, 0.2);
+    color: black;
+    border-radius: 6px;
+    padding: 2px 22px;
+    font-weight: bold;
+    border: 3px solid rgb(83, 82, 82);
+}
+
+.but-10:hover {
+    background-color: rgb(83, 82, 82);
+    color: rgb(238, 237, 237);
+    font-weight: bold;
+}
+
+.but-11 {
+    background-color: rgb(232, 180, 85, 0.2);
+    color: black;
+    border-radius: 6px;
+    padding: 2px 22px;
+    font-weight: bold;
+    border: 3px solid rgb(232, 180, 85);
+}
+
+.but-11:hover {
+    background-color: rgb(232, 180, 85);
+    color: rgb(238, 237, 237);
+    font-weight: bold;
+}
+
+/* 10 overflow */
+.hidden-image{
+    overflow: hidden;
+}
+.tam-image{
+    width: 100%;
+    height: 100%;
+}
+.scrolly-image{
+    overflow-y: scroll;
+}
+.scrollx-image{
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.scrollx-image{
+    height: 100%;
+}
+/* nav menu */
+.ul-1 {
+    list-style: none;
+    padding: 0;
+}
+
+.li-1 {
+    display: inline;
+
+}
+
+.a-1 {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    border: 6px grey;
+    padding: 12px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px gray;
+    margin: 18px;
+}
+
+.a-1:hover {
+    color: blue;
+}
+
+.ul-2 {
+    list-style: none;
+    padding: 0;
+}
+
+.li-2 {
+    display: block;
+    margin: 40px 0px;
+}
+
+.a-2 {
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(240, 235, 235);
+    background-color: rgb(174, 17, 17);
+    padding: 12px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px gray;
+
+}
+
+.a-2:hover {
+    color: black;
+    background-color: rgb(154, 91, 91);
+}
+
+/* 12. dropdown menü */
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    background-color: rgb(8, 9, 92);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown .dropdown-menu {
+    display: none;
+}
+
+.dropdown-menu {
+    margin-top: 10px;
+    display: none;
+    margin-left: 200px;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    padding: 10px !important;
+    background-color: rgb(160, 157, 212);
+}
+
+.dropdown-menu .menu {
+    list-style: none;
+    padding-left: 0;
+}
+
+.dropdown-menu .menu li {
+    display: block;
+    background-color: rgb(253, 253, 253);
+    color: rgb(5, 0, 0);
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* form  */
+.form{
+    width: 600px;
+    height: 200px;
+    background-color: rgb(72, 85, 226);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    border-radius: 8px;
+    
+    
+}
+.form-tr{
+    background-color:rgb(250, 239, 220);
+}
+.form-td input{
+    width: 97%;
+    height: 70%;
+}
+
+
+

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- ilk table açılır,
+    tr = her bir satır table row =tr
+    td=table data tablodaki satıra girilen data
+    th=tablo header  tablo başlığı belirtmek için kalın yazar
+    rowspan=satırları birleştirmek için kullanılır
+    colspan=kolonları  birleştirmek için kullanılır  yataydakileri birleştriyo
+-->
+<body>
+    <table border="1">  
+        <tr>
+            <th>isim</th>  
+            <th>soyisim</th>
+            <th>yaş </th>
+        </tr>
+        <tr>
+            <td>süheyla</td>
+            <td>kenet</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>onur</td>
+            <td>bostancı</td>
+            <td>25</td>
+        </tr>
+    </table>
+<hr>
+<h2>tablo2</h2>
+    <table border="1">  
+        <tr>
+            <th colspan="3">kişisel bilgiler</th>
+        </tr>
+        <tr>
+            <td>süheyla</td>
+            <td>kenet</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>onur</td>
+            <td>bostancı</td>
+            <td>25</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>tablo3</h2>
+
+    <table border="1">  
+        <tr>
+            <th colspan="3">kişisel bilgiler</th>
+        </tr>
+        <tr>
+            <th rowspan="2">soyisim</th>
+            <td>kenet</td>
+            <td>24</td>
+        </tr>
+        <tr>
+       
+            <td>bostancı</td>
+            <td>25</td>
+        </tr>
+    </table>
+</body>
+</html>

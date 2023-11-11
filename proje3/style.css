@@ -1,0 +1,171 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color:#e0ecf0;
+    color: white;
+    display: flex;
+    justify-content: space-between; /* Logo ve menüyü sağa ve sola yönlendirir */
+    align-items: center;
+    padding: 10px;
+}
+
+.logo-container img {
+    max-height: 80px; /* Logo'nun boyutunu ayarla (isteğe bağlı) */
+    padding-left: 180px;
+}
+
+.main-menu {
+    list-style: none;
+    margin: 0;
+    
+    display: flex;
+    padding-right: 150px;
+}
+
+
+
+.main-menu li {
+    margin-left: 20px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(88, 80, 122);
+    font-weight: bold;
+    font-size: 18px;
+    position: relative; /* İçindeki çizgiyi pozisyonlandırmak için */
+    transition: color 0.15s; /* Renk değişimine geçiş efekti ekler */
+    padding: 20px;
+}
+
+
+a:hover::before {
+    content: '';
+    position: absolute;
+    left: 50%; /* Metnin ortasından başla */
+    transform: translateX(-50%); /* Yatayda ortala */
+    width: 100%;
+    bottom: -2px;
+    height: 2px;
+    background-color: green; /* Çizgi rengi */
+    transition: width 0.3s; /* Genişlik değişimine geçiş efekti ekler */
+}
+
+a:hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    height: 2px;
+    background-color: green;
+}
+
+/* slider */
+.slider img{
+    width: 100%;
+}
+
+/* container */
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh; /* Ekran yüksekliği kadar alana yerleştirir */
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: -5px;
+}
+.box {
+    width: 200px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    height: 500px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.box:hover {
+    transform: scale(1.05); /* Büyüme efekti */
+}
+
+/* logo */
+.logo {
+    width: 250px; /* Örnek genişlik, ihtiyaca göre ayarlayabilirsiniz */
+    padding: 0px;
+    margin-left: 100px;
+    background-color: #ffffff;
+    text-align: center; /* Metinleri merkezine hizalar */
+    display: inline;
+    float: left;
+    margin-top: 0px;
+}
+
+.logo img {
+    max-width: 80%;
+    height: auto;
+}
+
+.logo a {
+    margin: 10px 0;
+    font-size: 30px;
+    color: #000000;
+}
+
+.logo p {
+    margin: 0;
+    font-size: 16px;
+    color: #000000;
+}
+
+hr {
+    clear: both;
+    margin-top: 20px; /* İstenilen boşluğu ayarlayabilirsiniz */
+}
+
+footer {
+    background-color: #e0ecf0;
+    height: 300px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+.footer-img{
+    padding-top: 0px;
+}
+
+.footer-menu, .footer-info {
+    text-align: center; 
+}
+
+.footer-menu li {
+    list-style: none; /* Liste işaretlerini gizler */
+    margin: 10px 0; 
+}
+
+.footer-info h2, .footer-info h3 {
+    margin: 5px 0; /* İstenilen boşluğu ayarlayabilirsiniz */
+}

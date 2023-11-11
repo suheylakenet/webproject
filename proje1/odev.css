@@ -1,0 +1,309 @@
+*{                 /*bütün sayfanın kenar boşlukları kapatıldı */
+  margin:0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/*başlık kısmı*/
+.header {
+  background-color: #4f5a86;   /*arka plan rengi sağlandı*/
+  color: white;
+  padding: 2px;    /*lacivert arka planın ebatı ayarladı */
+  text-align: center; /*başlık ortalandı*/
+  font-size: 18px;  /*boyut arttırma*/
+}
+.giris{
+  padding-right: 1000px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  
+} 
+
+.left a, .right a {
+  margin-right: 15px;
+  color: white;
+}
+
+.user-menu {
+  margin-left: auto; /* Bu, öğeleri sağ tarafa taşır */
+}
+
+.user-menu ul {
+  list-style: none;
+  padding: 0;
+  text-align: right;
+}
+
+.user-menu ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.user-menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.about, .services, .contact {
+  padding: 40px;
+}
+
+/* 2.header kısmı*/
+/* en dış arka plan */
+ .topbackground {
+  background-color: white;
+  background-size: auto;
+  width: auto;
+  height: 210px;
+ }
+
+/* Marka logosu olan çubuğu düzenler */
+.topbar {
+  background-color: white;
+  box-sizing: border-box;
+  border-bottom: 1px solid #000000;
+  padding: 10px;
+  margin: 20px, 0, 0, 0;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  }
+
+/* logo özellikleri */
+.button {
+  background-color: #4f5a86;
+  color: white;
+  border-width:  8px;  /*butona şekil verdim*/
+  border-radius: 25px;
+  height: 70px;  /* butonun yüksekliği*/
+  width: 400px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+
+}
+/* ana menüyü düzenler */
+.main {
+  background-color: white;
+  box-sizing: border-box;
+  /* padding: 4px; */
+  margin: 4px;
+  }
+  
+  /* burdan sonrası drop down ana menü çubuğu içindir. */
+  .menu1> ul {
+  list-style-type: none;
+  background-color: white;
+  padding: 0;
+  justify-content: space-between;
+  display: flex;
+
+  }
+  .menu1 li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  background-color: white;
+  width: 127px;
+  position: relative;
+  }
+  ul li a {
+  display: inline-block;
+  padding: 5px;
+  color: #4f5a86;
+  cursor: pointer;
+  line-height: 1.5; /* Satırlar arası boşluk, font boyutunun 1.5 katı */
+  
+  }
+  ul li a:hover {
+  color: #011b16;
+  transition: 0.3s;
+  }
+  
+  ul li:hover ul {
+  display: block;
+  }
+  
+  ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding-left: 5px;
+  background-color: white;
+  }
+  .menu2 ul ul li {
+  width: 100%;
+  padding-right: 5px;
+  margin-right: 0px;
+  background-color: white
+  }
+  /*danışmanlık hizmetlerimizdeki açılır kapanır sekme*/
+  #notlar {
+  z-index: 1;  /*üstte kalması sağlandı*/
+  margin-top: 10px;
+  margin-left: -42px;
+  display: inline-block; 
+  left: -30px; 
+  ;
+  }
+
+/*main kısmı düzenlemeleri */
+/* Diğer stillendirmeler */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /*ızgaraları oluşturduk*/
+  gap: 20px;
+  justify-content: space-between;/* Öğeleri aralarında eşit boşluk bırakarak hizalar. İlk ve son öğeler düzenleyicinin kenarlarına hizalanır.*/
+  max-width: 900px;/* şabloların genel boyutu */
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+.box {
+  flex: 1;
+  border: 1px solid #ddd;/*Bu özellik, öğenin etrafına 1 piksel genişliğinde ve #ddd renginde bir kenarlık (border) ekler.*/
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* transition: transform 0.3s, box-shadow 0.3s;Bu özellik, öğeye gölge ekler. İlk değer yatay ofseti, ikinci değer dikey ofseti, üçüncü değer bulanıklığı (blur), dördüncü değer ise gölgenin rengini belirtir. */
+  overflow: visible;/*u özellik, öğe içeriği öğenin sınırlarının dışına taşıyorsa, taşan kısımları gizler. Yani içerik öğenin sınırları içinde kalır.*/
+  border-radius: 20px; /*  kutu kenarlarını da ovalleştirmek için */
+}
+
+.box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-container {
+  height: 120px;   /*fotoların yüksekliği ayarlandı*/
+  width: 270px; /* fotoların genişliği ayarlandı */
+  overflow: hidden;/*Kutucuk içeriğinin sınırlarının dışına taşması durumunda, taşan kısmı gizler.*/
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s;
+  border-radius: 40%;    /*fotoları  Ovalleştirmek için */
+}
+
+.box:hover .image-container img {
+  transform: scale(1.3);  /*yakınlaşma derecesi ayarlandı*/
+}
+
+.text {
+  padding: 25px;
+  background-color: #e9e5e7;
+  background-size: contain;
+  overflow: visible; /*metinde taşan kısımları gizledi*/
+  text-align: center; 
+}
+
+/*footer kısmı*/
+
+.spacer {
+  height: 20px;
+}
+
+.footer {                 /*Telif hakkı yazan kısım*/
+  background-color: #4f5a86;
+  padding: 40px ;
+
+}
+/*adres yazan kısım*/
+.footer-content {
+  max-width: 600px;
+  margin: 10px;  
+  margin-bottom: 2px;
+  padding: 20px;
+  font-size:18px;
+  text-align: left;
+  padding-left: 10px;
+  
+}
+
+.footer h3 {
+  margin-top: 0;
+  text-align: center;
+  color: white;
+  text-align: left;
+}
+
+.footer p {
+  margin: 5px ;
+  color: white;
+}
+/*telif hakkı yazan kısım*/
+.footer-copy {
+  margin-top: 2px;
+  color: white;
+  font-size: 18px;
+  float: right; /*telif hakkı yazısı sağa kaydırıldı*/
+}
+/*saat ve tarih*/
+/* Saat ve tarih alanı */
+.date-time {
+  position: fixed;
+  bottom: 40px;/*telif hakkı yazısıyla çakışmasın diye düzenlemeler yapıldı*/
+  right: 20px;
+  background-color: #4f5a86;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Saat ve tarih içeriği */
+.date-time-content {
+  display: flex;
+  align-items: center;
+}
+
+/* Saat simgesi */
+.date-time-content i {
+  margin-right: 5px;
+}
+/* İletişim sayfası stil düzenlemeleri */
+.contact-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.contact-info {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* Diğer stillendirmeler */
+/* 2.iletişim sayfam */
+/* İletişim sayfası stil düzenlemeleri */
+.contact-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.contact-info {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* Diğer stillendirmeler */
+/* ... */
+
+
+
+
+
+
+
+

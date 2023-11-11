@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootsrap.css">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        
+</head>
+
+<body>
+    <div class="container1">
+        <div class="sidebar">
+            <h2><i class="fa-brands fa-bootstrap"></i>Bootsrap</h2>
+            <hr> 
+            <hr>
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-house"></i>Anasayfa</a></li>
+                <li><a href="#"><i class="fa-solid fa-address-card"></i>Hakkımızda</a></li>
+                <li><a href="#"><i class="fa-brands fa-bootstrap"></i>
+                        Bootstrap</a>
+                    <ul>
+                        <li class="boostrap"><a href="#grid">1 Grid</a></li>
+                        <li class="boostrap"><a href="#color">2 Color</a></li>
+                        <li class="boostrap"><a href="#ftsize">3 Font-Size</a></li>
+                        <li class="boostrap"><a href="#ffamily">4 Font-family</a></li>
+                        <li class="boostrap"> <a href="#mp">5 Margin&Padding</a></li>
+                        <li class="boostrap"><a href="#slider">6 Slider</a></li>
+                        <li class="boostrap"><a href="#tablolar">7 Tablolar</a></li>
+                        <li class="boostrap"><a href="#resimler">8 Resimler</a></li>
+                        <li class="boostrap"><a href="#buton">9 Buton</a></li>
+                        <li class="boostrap"><a href="#overflow">10 Overflow</a></li>
+                        <li class="boostrap"><a href="#nav">11 Nav menü</a></li>
+                        <li class="boostrap"><a href="#dmenu">12 Dropdown menü</a></li>
+                        <li class="boostrap"><a href="#form">13 Form Elemanları</a></li>
+
+
+                    </ul>
+                </li>
+                <li><a href="#iletisim"><i class="fa-solid fa-phone"></i>İletişim</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div><h1 >Bootsrap Kütüphanesi <hr> <hr></h1></div>
+           
+            <h2 id="grid">1 Grid</h2>
+            <p>Grid, HTML ve CSS kullanarak düzen oluşturmanıza ve elemanları belirli bir düzen içinde yerleştirmenize
+                olanak tanıyan bir düzenleme
+                sistemidir. Bu, özellikle web sayfaları veya uygulamalarının düzenini yönetmek için kullanışlıdır.
+                CSS Grid Layout veya kısaca CSS Grid olarak da adlandırılır.
+
+                CSS Grid, bir "grid container" (ızgara konteynırı) ve içindeki
+                "grid items" (ızgara öğeleri) olarak iki temel bileşenden oluşur.
+                Grid container, içerdiği öğeleri düzenlemek için bir ızgara sistemi
+                oluşturur. Grid öğeleri, bu ızgara üzerine yerleştirilen ve düzenlenen
+                içerik öğeleridir.</p>
+            <p>Aşağıda 12 li sitemlik bir grid yapısı örneği mevcuttur</p>
+
+            <div class="container">
+                <p class="col-1"> Grid 1/12.</p>
+                <p class="col-2">Grid 2/12.</p>
+                <p class="col-3">Grid 3/12.</p>
+                <p class="col-4">Grid 4/12.</p>
+                <p class="col-5">Grid 5/12.</p>
+                <p class="col-6">Grid 6/12.</p>
+                <p class="col-7">Grid 7/12.</p>
+                <p class="col-8">Grid 8/12.</p>
+                <p class="col-9">Grid 9/12.</p>
+                <p class="col-10">Grid 10/12.</p>
+                <p class="col-11">Grid 11/12.</p>
+                <p class="col-12">Grid 12/12.</p>
+            </div>
+            <p>HTML KOD KISMI :
+                <br><br><br><br><br>
+                <img style="width: 400px;" src="images/Screenshot_2.jpg" alt="">
+            </p>
+            <br><br>
+            <hr>
+            <h2 id="color"> 2 Color</h2>
+            <p>Bu bölümde renkler için en az 10 renk ismi ve renk tanımlanmış olup bu renkleri tanımlarken renklerin
+                arkaplan rengi, yazı rengi ve buton rengi olarak aynı renklerde fakat farklı tonlarda olmasına dikkat
+                edilip yapımıştır.
+                Ayrıca buton yazısının arka plan renkleri üstteki div içindeki tex ile aynı renkte olup uyum
+                sağlanmıştır. </p>
+
+            <div class="bg-red">
+                <h2 class="txt-red">Süheyla Kenet</h2>
+            </div>
+            <a class="btn-red">Buton</a>
+
+            <div class="bg-green">
+                <h2 class="txt-green">Süheyla Kenet</h2>
+            </div>
+            <a class="btn-green">Buton</a>
+
+            <div class="bg-blue">
+                <h2 class="txt-blue">Süheyla Kenet</h2>
+            </div>
+            <a class="btn-blue">Buton</a>
+
+            <div class="bg-pink">
+                <h2 class="txt-pink">Süheyla Kenet</h2>
+            </div>
+            <a class="btn-pink">Buton</a>
+
+            <div class="bg-orange">
+                <h2 class="txt-orange">Süheyla Kenet</h2>
+            </div>
+            <a class="btn-orange">Buton</a>
+
+            <div class="bg-black">
+                <h2 class="txt-black">Süheyla Kenet</h2>
+            </div>
+            <a class="btn-black">Buton</a>
+
+            <div class="bg-brown">
+                <h2 class="txt-brown">Süheyla Kenet</h2>
+            </div>
+            <a class="btn-brown">Buton</a>
+
+            <div class="bg-yellow">
+                <h2 class="txt-yellow">Süheyla Kenet</h2>
+            </div>
+            <a class="btn-yellow">Buton</a>
+
+            <div class="bg-grey">
+                <h2 class="txt-grey">Süheyla Kenet</h2>
+            </div>
+            <a class="btn-grey">Buton</a>
+
+            <div class="bg-purple">
+                <h2 class="txt-purple">Süheyla Kenet</h2>
+            </div>
+            <a class="btn-purple">Buton</a>
+
+            <p>Html kod kısmı aşağıda görünen şekildedir.</p>
+            <img style="width: 400px;" src="images/color1.1.jpg" alt="">
+            <br><br><br><br>
+            <img style="width: 400px;" src="images/color2.jpg" alt="">
+            <br><br>
+            <hr>
+
+            <h2 id="ftsize">3 Font-Size Yazı Boyutu</h2>
+            <p>HTML ve CSS'de yazıların font boyutunu belirlemek için "font-size" özelliğini kullanabilirsiniz.
+                Font boyutu, genellikle piksel (px), em (em), rem (rem) veya yüzde (%) cinsinden ifade edilir. </p>
+
+            <p class="font-size1">
+                Bu yazı font size 14px olarak yazılmıştır. </p>
+
+            <p class="font-size2">
+                Bu yazı font size 16px olarak yazılmıştır. </p>
+
+            <p class="font-size3">
+                Bu yazı font size 18px olarak yazılmıştır.</p>
+
+            <p class="font-size4">
+                Bu yazı font size 20px olarak yazılmıştır. </p>
+
+            <p class="font-size5">
+                Bu yazı font size 22px olarak yazılmıştır. </p>
+
+            <p class="font-size6">
+                Bu yazı font size 24px olarak yazılmıştır. </p>
+
+            <p class="font-size7">
+                Bu yazı font size 26px olarak yazılmıştır. </p>
+
+            <p class="font-size8">
+                Bu yazı font size 28px olarak yazılmıştır. </p>
+
+            <p class="font-size9">
+                Bu yazı font size 30px olarak yazılmıştır. </p>
+
+            <p class="font-size10">
+                Bu yazı font size 32px olarak yazılmıştır. </p>
+
+            <h1 class="font-size-h1">H1 Başlık yazı fontu 50px.</h1>
+            <h2 class="font-size-h2">H2 Başlık yazı fontu 40px.</h2>
+            <h3 class="font-size-h3">H3 Başlık yazı fontu 30px</h3>
+            <h4 class="font-size-h4">H4 Başlık yazı fontu 20px</h4>
+            <h5 class="font-size-h5">H4 Başlık yazı fontu 15px</h5>
+
+            <p>Html kod kısmı aşağıda görünen şekildedir.</p>
+            <img style="width: 400px;" src="images/fontsize.jpg" alt="">
+            <br><br><br>
+            <img style="width: 400px;" src="images/yazıfont.jpg" alt="">
+            <br><br>
+            <hr>
+            <h2 id="ffamily"> 4 Font-Family</h2>
+            <p>CSS ile font family (yazı tipi ailesi) belirlemek için font-family özelliğini kullanabilirsiniz. Bu
+                özellik, metinlerin hangi yazı
+                tipi veya yazı tipleriyle görüntüleneceğini belirler. Belirlediğiniz yazı tipleri, kullanıcı cihazında
+                bulunmuyorsa,
+                tarayıcı daha önce belirlediğiniz sıraya göre alternatif yazı tiplerini kullanacaktır.
+                Örnek olarak font-family: Arial, Helvetica, sans-serif; seçilirse tarayıcı önce Arial yazı tipini
+                arayacak, eğer bulunmuyorsa Helvetica'ya ve son olarak sans-serif (genel yazı tipi ailesi) yazı tipine
+                geçecektir.
+                Bu, metinlerin çoğu kullanıcı cihazında okunabilir bir şekilde görünmesini sağlar.</p>
+            <p class="font-family-verd"> *Bu yazı font-family: Verdana, Geneva, Tahoma, sans-serif kullanılarak
+                yazılmıştır.</p>
+            <p class="font-family-calibri">*Bu yazı font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+                sans-serif; kullanılarak yazılmıştır.</p>
+            <p class="font-family-times">*Bu yazı font-family:'Times New Roman', Times, serif kullanılarak yazılmıştır.
+            </p>
+            <p class="font-family-arial">*Bu yazı font-family:Arial, Helvetica, sans-serif kullanılarak yazılmıştır.</p>
+            <p class="font-family-monoco">*Bu yazı font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+                serif kullanarak yazılmıştır</p>
+            <p>Html kod kısmı aşağıda görünen şekildedir.</p>
+            <img style="width: 400px;" src="images/fontfamily.jpg" alt="">
+            <br><br>
+            <hr>
+            <h2 id="mp">5 Margin ve Padding</h2>
+            <p>Margin," CSS (Cascading Style Sheets) kullanılarak HTML öğelerinin etrafındaki boşluğu belirlemek veya
+                ayarlamak için kullanılan bir CSS
+                özelliğidir. Margin, bir HTML öğesi ve çevresindeki diğer öğeler arasındaki boşluğu tanımlar ve bu
+                boşluğu belirli bir uzaklık veya boşluk
+                değeri ile kontrol etmenizi sağlar.
+                Margin özelliği, öğelerin birbirine veya sayfa kenarlarına göre nasıl konumlandırılacağını ayarlamak
+                için kullanılır.
+            </p>
+            <h3>margin-top: 10px; /* Üst boşluk */</h3>
+            <h3>margin-right: 20px; /* Sağ boşluk */</h3>
+            <h3>margin-bottom: 10px; /* Alt boşluk */</h3>
+            <h3>margin-left: 20px; /* Sol boşluk */</h3>
+            <h3>margin: 15px; /* Üst, Sağ, Alt ve Sol boşluklar 15px */</h3>
+            <p>Margin, öğelerin birbirinden uzaklaşmasını veya yakınlaşmasını sağlar. Sayfa düzenini ve öğelerin
+                yerleşimini kontrol etmek için önemli bir
+                CSS özelliğidir ve tasarımın görünümünü düzenlerken sıklıkla kullanılır.</p>
+            <div class="m0" style="width: 150px; height: 150px; background-color: rgb(166, 176, 176); float: left;">
+                <p class="p0"> m0:margin 0px p0:padding 0px,</p>
+            </div>
+            <div class="m1" style="width: 150px; height: 150px; background-color: rgb(166, 176, 176); float: left; ">
+                <p class="p1">m1:margin 2px p1:padding 2px;</p>
+            </div>
+            <div class="ml2" style="width: 150px; height: 150px; background-color: rgb(166, 176, 176); float: left;">
+                <p class="pl2">pl2:margin-left: 4px padding-left 4px;</p>
+            </div>
+            <div class="mt3" style="width: 150px; height: 150px; background-color: rgb(166, 176, 176);float: left;">
+                <p class="pt3">margin-top:6px; padding-top:6px</p>
+            </div>
+            <div class="mb4" style="width: 150px; height: 150px; background-color: rgb(166, 176, 176);float: left;">
+                <p class="pb4">margin-bottom:8px; padding-bottom:8px</p>
+            </div>
+            <div class="mr5" style="width: 150px; height: 150px; background-color: rgb(166, 176, 176);float: left;">
+                <p class="pr5"> margin-right: 10px;</p>
+            </div>
+            <br><br><br><br><br><br><br><br><br>
+            <p>yukarda daha iyi anlaşılması için kutucuklar oluşturulup margin ve paddingler verilmiştir.</p>
+            <p>Html kod kısmı aşağıda görünen şekildedir.</p>
+            <img style="width: 800px; " src="images/margin3.jpg" alt="">
+            <br><br>
+            <hr>
+            <h2 id="slider">6 Slider</h2>
+            <p>Slider, bir web sayfası veya uygulamada, kullanıcının bir dizi içerik veya görüntü arasında geçiş
+                yapmasını sağlayan bir arayüz öğesidir. Sliderlar, web tasarımında dikkat çekmek, içeriği vurgulamak
+                veya kullanıcıların ilgisini çekmek için sıkça kullanılır. Genellikle bir dizi resim, metin veya medya
+                öğesi (örneğin, reklamlar, ürünler veya duyurular) arasında geçiş yapmak için kullanılır.
+
+                <b><br>Sliderların temel özellikleri şunlar olabilir: <br></b>
+
+                <b>Otomatik Geçiş:</b> Slider, otomatik olarak belirli bir süre aralığında içerikleri döndürebilir. Bu,
+                kullanıcı müdahalesi olmadan içeriklerin görünmesini sağlar. <br>
+
+                <b>Manuel Geçiş:</b> Kullanıcılar genellikle sliderda ileri ve geri düğmeleri, oklar veya dokunmatik
+                hareketler gibi kontrol yöntemleri kullanarak içerikler arasında elle gezinirler. <br>
+
+                <b>Nokta veya Düğme Gezinme:</b> Sliderda hangi slaytın görüntülendiğini göstermek için genellikle
+                altında veya üstünde noktalar veya düğmeler bulunur. Kullanıcılar bu düğmelere tıklayarak belirli bir
+                slayta geçebilirler. <br>
+
+                <b>Geçiş Efektleri:</b>Sliderlar arasındaki geçişler sırasında efektler kullanılabilir. Bu efektler,
+                içeriklerin soluklaşması, kaybolması, kaydırılması veya farklı bir şekilde görünür hale gelmesi gibi
+                animasyonlar olabilir. <br>
+
+                <b>Metin ve Başlık:</b> Sliderlar, resimlerin veya içeriklerin yanı sıra başlıklar, metinler ve
+                açıklamalar içerebilirler. <br>
+
+            </p>
+<br>
+            <h3>Slider 1</h3>
+            <div class="slider1">
+                <div class="slider1-bg">
+                    <img class="slider1-img"
+                        src="https://i.pinimg.com/736x/cf/3b/74/cf3b7477e2572a8f6c79ab9d7875813f.jpg"
+                        alt="">
+                    <img class="slider1-img"
+                        src="https://up.zhuoku.org/pic_360/86/6d/90/866d907c14ec9448fc863d7cce96836c.jpg"
+                        alt="">
+                    <img class="slider1-img"
+                        src="https://evp.su/uploads/1307702292_sea01.jpg"
+                        alt="">
+                    <img class="slider1-img"
+                        src="https://i.pinimg.com/736x/f1/8a/94/f18a94f2bcfeb9a1f0c84204bd765afa.jpg"
+                        alt="">
+                </div>
+            </div>
+            <p>4 Farklı fotoğraftan oluşan sağdan sola doğru kayan bir slider yapılmıştır.Bu slider yapımı için aşağıda
+                belirtilen html kodları kullanılmıştır. </p>
+            <img style="width: 800px; height: 200px;" src="images/slider11.jpg" alt="">
+            <br>
+            <h3>Slider 2</h3>
+            <div class="slider2">
+                <div class="slider2-bg">
+                    <img class="slider2-img"
+                        src="https://dynamic.tourtravelworld.com/package-images/photo-big/dir_19/549821/278889.jpg"
+                        alt="">
+                    <img class="slider2-img"
+                        src="https://kepguru.hu/previews/15/155987.jpg"
+                        alt="">
+                    <img class="slider2-img"
+                        src="https://sun9-65.userapi.com/impg/uh2NUew81S8aZf8o2HFBdJmxqlLGsRQAs17RGw/u43CRi0vBdY.jpg?size=480x300&quality=96&sign=649740cf6e34bf8f89fc970ded66c5fd&c_uniq_tag=zaD-Cp_0Els1hSF1Kkg-gTNJnqxODNJZsJiFtO5yuSM&type=album"
+                        alt="">
+                    <img class="slider2-img"
+                        src="https://4.bp.blogspot.com/-H_mB1HUo3l0/Vwa1C_rOtUI/AAAAAAAAClo/iYVdTVioJrAnobkYHEqDeA4j6ciNUwwrQ/s1600/autumnColor4.jpg"
+                        alt="">
+                </div>
+            </div>
+            <p>4 Farklı fotoğraftan oluşan yukarıdan aşağı doğru kayan bir slider yapılmıştır.Bu slider yapımı için
+                aşağıda belirtilen html kodları kullanılmıştır. </p>
+            <img style="width: 800px; height: 200px;" src="images/slider2.jpg" alt="">
+            <br><br>
+            <h3>Slider 3</h3>
+            <div class="slider3">
+                <div class="slider3-bg">
+                    <img class="slider3-img"
+                        src="https://buzulukmedia.ru/wp-content/uploads/2022/02/i-2.jpg"
+                        alt="">
+                    <img class="slider3-img"
+                        src="https://img.hotels24.ua/photos/ria/news_content/110/11060/1106083/1106083.jpg"
+                        alt="">
+                    <img class="slider3-img"
+                        src="https://avatars.mds.yandex.net/i?id=a32f10276296a9c63c2263a4e1538967-3834231-images-thumbs&n=13"
+                        alt="">
+                    <img class="slider3-img"
+                        src="https://pic.rutubelist.ru/video/91/30/913059444f83c363c892670ef0c66596.jpg"
+                        alt="">
+                </div>
+            </div>
+            <p>4 farklı fotoğraftan oluşan aşağıdan yukarı doğru kayan vir slider oluşturulmuştur.Bu slider yapımı için
+                aşağıda belirtilen html kodları kullanılmıştır.</p>
+                <img style="width: 800px;" src="images/slider3.jpg" alt="">
+                <br><br>
+            <hr>
+            <h2 id="tablolar">7 Tablolar</h2>
+            <p>HTML ve CSS ile farklı türlerde tablolar oluşturabilirsiniz. İşte bazı yaygın tablo türleri ve bunları
+                nasıl
+                oluşturacağınıza dair örnekler:</p>
+            <h3>1 Responsive Tablo</h3>
+            <p>1 responsive tablo :
+                Duyarlı (responsive) bir tablo oluşturmak, tablonun farklı ekran boyutlarına uyum sağlamasını ve
+                kullanıcı deneyimini iyileştirmesini sağlar</p>
+            <div class="table-container">
+                <table class="responsive-table">
+                    <tr>
+                        <th>AD</th>
+                        <th>SOYAD</th>
+                        <th>NUMARA</th>
+                    </tr>
+                    <tr>
+                        <td>Süheyla</td>
+                        <td>Kenet</td>
+                        <td>952</td>
+                    </tr>
+                    <tr>
+                        <td>Süheyla</td>
+                        <td>Kenet</td>
+                        <td>952</td>
+                    </tr>
+                    <tr>
+                        <td>Süheyla</td>
+                        <td>Kenet</td>
+                        <td>952</td>
+                    </tr>
+
+                </table>
+            </div>
+            <p>Responsive tablonun Html kod kısmı aşağıda görünen şekildedir.</p>
+            <img style="width: 400px;" src="images/responsive.jpg" alt="">
+            <br><br>
+
+            <h3>2 Bordered tablo</h3>
+            <p>2 Bordered table," yani "çerçeveli tablo," bir HTML tablosunun hücrelerinin ve başlıklarının sınırlarla
+                (çerçeve veya kenarlık) çevrili
+                olduğu bir tablo türüdür. Bu sınırlar, her hücreyi ve başlığı vurgulamak,
+                tabloyu daha düzenli görünmesini sağlamak ve içeriği daha kolay okunur hale getirmek için kullanılır.
+            </p>
+            <table class="bordered-table">
+                <tr>
+                    <th>AD</th>
+                    <th>SOYAD</th>
+                    <th>NUMARA</th>
+                </tr>
+                <tr>
+                    <td>Süheyla</td>
+                    <td>Kenet</td>
+                    <td>952</td>
+                </tr>
+                <tr>
+                    <td>Süheyla</td>
+                    <td>Kenet</td>
+                    <td>952</td>
+                </tr>
+                <tr>
+                    <td>Süheyla</td>
+                    <td>Kenet</td>
+                    <td>952</td>
+                </tr>
+            </table>
+            <p>Bordered tablonun Html kod kısmı aşağıda görünen şekildedir.</p>
+            <img style="width: 300px;" src="images/borderedtablo.jpg" alt="">
+            <br><br>
+            <h3>3 Striped tablo</h3>
+
+            <p>3 Stippled tablo," yani "noktalı tablo," HTML ve CSS kullanılarak oluşturulan bir tablo türüdür. Bu tür
+                bir tablo, hücrelerin ve başlıkların arasında noktaların veya çizgilerin olduğu bir desenle süslenmiş
+                tablodur.
+                Bu desen, tablonun içeriğini görsel olarak vurgulamak ve tasarıma estetik bir dokunuş eklemek için
+                kullanılır.</p>
+
+            <div>
+                <table style="width: 50%;" class="striped-table">
+                    <tr>
+                        <th>AD</th>
+                        <th>SOYAD</th>
+                        <th>NUMARA</th>
+                    </tr>
+                    <tr>
+                        <td>Süheyla</td>
+                        <td>Kenet</td>
+                        <td>952</td>
+                    </tr>
+                    <tr>
+                        <td>Süheyla</td>
+                        <td>Kenet</td>
+                        <td>952</td>
+                    </tr>
+                    <tr>
+                        <td>Süheyla</td>
+                        <td>Kenet</td>
+                        <td>952</td>
+                    </tr>
+                </table>
+                <p>Stripped tablonun html kodları aşağıda verilmiştir.</p>
+                <img style="width: 400px;" src="images/striped tablo.jpg" alt="">
+                <br><br>
+
+                <h3>4 Hoverable Tablo </h3>
+                <p>Hoverable tablo" terimi, web tasarımında kullanılan bir terimdir ve bir HTML tablosunun hücrelerine
+                    veya başlıklarına fare ile
+                    üzerine geldiğinizde (hover durumu) belirli bir etki veya stil değişikliği uygulandığı bir tablo
+                    türünü ifade eder.
+                    Bu tür bir tablo, kullanıcıların tablo içeriğine veya başlıklara işaret ettiğinde görsel bir geri
+                    bildirim sağlamak için kullanılır.
+                    Hoverable tablolar,
+
+                    kullanıcı deneyimini artırmak ve içeriği daha etkileşimli hale getirmek için yaygın olarak
+                    kullanılır.</p>
+                <table class="hoverable-table">
+                    <tr>
+                        <th>AD</th>
+                        <th>SOYAD</th>
+                        <th>NUMARA</th>
+                    </tr>
+                    <tr>
+                        <td>Süheyla</td>
+                        <td>Kenet</td>
+                        <td>952</td>
+                    </tr>
+                    <tr>
+                        <td>Süheyla</td>
+                        <td>Kenet</td>
+                        <td>952</td>
+                    </tr>
+                    <tr>
+                        <td>Süheyla</td>
+                        <td>Kenet</td>
+                        <td>952</td>
+                    </tr>
+                </table>
+                <p>Hoverable tablonun html kodları aşağıda verilen gibidir.</p>
+                <img style="width: 300px;" src="images/hoverable.jpg" alt="">
+                <br><br>
+                <hr>
+                <h2 id="resimler">8 Resimler</h2>
+                <p>Resimler bir div içerisine alınıp her birine ayrı classlar atanmıştır. classlar da image ler width oranları 100% olarak yayarlanmıştır.
+                    Alt resime border radius verilip kenar sivrilikleri giderilmiştir.
+                </p>
+                <div>
+                    <img class="image1" src="images/dog3.jpg" alt="">
+                    <img class="image2" src="images/dog3.jpg" alt="">
+                </div>
+                <p>Resimlerin html kodları aşağıda verilmiştir. </p>
+                <img src="images/resimler.jpg" alt="">
+                <br><br>
+                <hr>
+                <h2 id="buton">9 Buton</h2>
+                
+                <button class="but-1">Gönder</button>
+                <button class="but-2">Gönder</button>
+                <button class="but-3">Gönder</button>
+                <button class="but-4">Gönder</button>
+                <button class="but-5">Gönder</button>
+                <button class="but-6">Gönder</button>
+                <button class="but-7">Gönder</button>
+                <button class="but-8">Gönder</button>
+                <button class="but-9">Gönder</button>
+                <button class="but-10">Gönder</button>
+                <button class="but-11">Gönder</button>
+
+                <p>Butonların html kodları aşağıda verilmiştir. </p>
+                <img style="width: 400px;" src="images/buton.jpg" alt="">
+                <br><br>
+                <hr>
+                
+                <h2 id="overflow">10 Overflow</h2>
+                <div style="width: 300px; height: 200px;" class="hidden-image  ">
+                    <img src="images/dog4.jpg" alt="">
+                </div>
+                <div style="width: 300px; height: 200px;" class="tam-image">
+                    <img src="images/dog4.jpg" alt="">
+                </div>
+                <br><br><br><br><br><br><br><br><br><br><br><br>
+                <div style="width: 300px; height: 200px;" class="scrolly-image">
+                    <img src="images/dog4.jpg" alt="">
+                </div>
+                <div style="width: 300px; height: 200px;" class="scrollx-image">
+                    <img src="images/dog4.jpg" alt="">
+                </div>
+                <p>Yukarıda resimin ortalı bir şekilde görüneni, resmin yüksekliğe göre ortalananı,
+                     resmin genişliğe göre ortalananı ve resmin orjinal boyutunda içeride overflow:hidden olarak görünen toplam 4 class oluşturulmuştur.
+                     html kod kısımları aşağıda verilmiştir. </p>
+                     <img src="images/overflowson.jpg" alt="">
+                <br><br>
+                <hr>
+                <h2 id="nav">11 Nav Menu</h2>
+                <p>display:inline kullanılarak oluşturulan nav menu</p>
+                <div class="nav-1">
+                    <ul class="ul-1">
+                        <li class="li-1">
+                            <a class="a-1" href="#">Anasayfa</a>
+                        </li>
+                        <li class="li-1">
+                            <a class="a-1" href="#">Hakkımızda</a>
+                        </li>
+                        <li class="li-1">
+                            <a class="a-1" href="#">Galeri</a>
+                        </li>
+                        <li class="li-1">
+                            <a class="a-1" href="#">İletişim</a>
+                        </li>
+                    </ul>
+                </div>
+                <p>display:inline kullanılarak oluşturulan nav menu için html kodları aşağıda verilmiştir.</p>
+                <img style="width: 400px;" src="images/nav1.jpg" alt="">
+                <br><br>
+                
+
+                <p>Block nav menu </p>
+                <div class="nav-2">
+                    <ul class="ul-2">
+                        <li class="li-2">
+                            <a class="a-2" href="#">Anasayfa</a>
+                        </li>
+                        <li class="li-2">
+                            <a class="a-2" href="#">Hakkımızda</a>
+                        </li>
+                        <li class="li-2">
+                            <a class="a-2" href="#">Galeri</a>
+                        </li>
+                        <li class="li-2">
+                            <a class="a-2" href="#">İletişim</a>
+                        </li>
+                    </ul>
+                </div>
+                <p>Block nav menu içn html kodları aşağıda verilmiştir.</p>
+                <img style="width: 400px;" src="images/blocknav.jpg" alt="">
+                <br><br>
+                <p>Normal Nav Menu </p>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="#">Anasayfa</a>
+                        </li>
+                        <li>
+                            <a href="#"> Hakkımızda</a>
+                        </li>
+                        <li>
+                            <a href="#">Galeri</a>
+                        </li>
+                        <li>
+                            <a href="#">İletişim</a>
+                        </li>
+                    </ul>
+                </div>
+                <p>Css çzellikleri eklenmemiş normal bir nav menu yukarıda verilmiştir.Html kodları aşağıda verilmiştir.</p>
+                <img style="width: 400px;" src="images/normalnav.jpg" alt="">
+                <br><br>
+                <hr>
+                <h2 id="dmenu">12 Dropdown Menu</h2>
+                <p>Dropdown menu (açılır menü), bir web sitesi veya uygulamada kullanıcıların bir seçenek listesinden bir veya daha fazla seçenek seçmelerini sağlayan bir kullanıcı arayüzü öğesidir. Dropdown menüler, genellikle navigasyon menüleri, ayarlar, filtreler ve daha fazlası gibi birçok farklı bağlamda kullanılır. 
+                    Kullanıcı bir açılır menüyü tıkladığında, listeden seçenekleri görüntüleyebilir ve seçebilir.</p>
+                <div class="d.d-menü">
+                    <ul class="navbar">
+                        <li><a href="">Anasayfa</a></li>
+                        <li><a href="">Hakkımızda</a></li>
+                        <li class="dropdown">
+                            <a href="">Sosyal Medya</a>
+                            <div class="dropdown-menu">
+                                <ul class="menu">
+                                    <li>Facebook</li>
+                                    <li>Instagram</li>
+                                    <li>Linkedin</li>
+                                    <li>Youtube</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="">İletişim</a></li>
+                    </ul>
+                </div>
+                <p>Üstteki dropdown menü de fare ile sosyal medya hesaplarımıza gelindiğinde altta açılır yeni bir block nav açılmaktadır.</p>
+                <p>Html kodu aşağıda verilmiştir.</p>
+                <img style="width: 400px;" src="images/ddmenu.jpg" alt="">
+            
+
+                <br><br>
+                <hr>
+                <h2 id="form">13 Form Elemanları</h2>
+                <form method="get" action="#">
+                    <left>
+                        <table class="form" border="1">
+                            <thead>
+                                <tr class="form-tr">
+                                    <td class="form-td" colspan="2"><b>Login</b></td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="form-tr">
+                                    <td class="form-td">
+                                        <strong>Username</strong>
+                                    </td>
+                                    <td class="form-td" >
+                                        <input type="text" id="username" name="username" placeholder="Enter Username">
+                                    </td>
+                                </tr>
+                                <tr class="form-tr">
+                                    <td class="form-td">
+                                        <strong>Password</strong>
+                                    </td>
+                                    <td class="form-td">
+                                        <input type="password" id="password" name="password" placeholder="Enter Password">
+                                    </td>
+                                </tr>
+                                <tr class="form-tr">
+                                    <td class="form-td">
+                                        <strong>Remember Me</strong>
+                                    </td>
+                                    <td class="form-td">
+                                        <input type="checkbox" id="rememberme" name="rememberme">
+                                    </td>
+                                </tr>
+                                <tr class="form-tr">
+                                    <td class="form-td" colspan="2">
+                                        <input type="submit" value="Login">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </left>       
+                </form>
+                <p>Form tablosu için html kodları aşağıda verilmiştir.</p>
+                <img src="images/form.jpg" alt="">
+                <br><br>
+                <hr>
+                <h2 id="iletisim">İletişim</h2>
+                <h3>Süheyla Kenet</h3>
+                <img style="display: block; width: 200px; float: left;"    src="images/FOTOM.jpg" alt="">
+                <p style="float: left; margin-left: 20px;" >
+                    <b style="font-size: 20PX; color: rgb(255, 4, 0);">Bana Ulaşın</b><br>
+                    
+                    <b>Telefon:</b> 05326151615 <br>
+                    <b>E-mail:</b> suheylakenett@gmail.com <br>
+                    <b>Linkedin:</b>  https://www.linkedin.com/in/s%C3%BCheyla-kenet-7b815b172/
+                </p>
+            </div>
+        </div>
+        
+        
+</body>
+
+</html>

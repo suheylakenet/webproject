@@ -1,0 +1,682 @@
+                                       /* 1grid */
+.container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-gap: 20px;
+    /* background-color: rgb(197, 160, 160); */
+}
+.col-1{
+    grid-column-start: span 1;
+    background-color: aqua;
+}                                       
+.col-2{
+    grid-column-start: span 2;
+    background-color: aqua;
+} 
+.col-3{
+    grid-column-start: span 3;
+    background-color: aqua;
+}
+.col-4{
+    grid-column-start: span 4;
+    background-color: aqua;
+}
+.col-5{
+    grid-column-start: span 5;
+    background-color: aqua;
+}
+.col-6{
+    grid-column-start: span 6;
+    background-color: aqua;
+}
+.col-7{
+    grid-column-start: span 7;
+    background-color: aqua;
+}
+.col-8{
+    grid-column-start: span 8;
+    background-color: aqua;
+}
+.col-9{
+    grid-column-start: span 9;
+    background-color: aqua;
+}
+.col-10{
+    grid-column-start: span 10;
+    background-color: aqua;
+}
+.col-11{
+    grid-column-start: span 11;
+    background-color: aqua;
+}
+.col-12{
+    grid-column-start: span 12;
+    background-color: aqua;
+}                                       
+                                       
+                                       
+                                       /* 2.color*/
+
+/* 2.renk red*/
+.bg-red{
+    background-color: #be0404!important;
+}
+.txt-red{
+    color: #f83838!important;
+    text-shadow: 1px 1px 2px #28262693;
+}
+.btn-red:hover{
+    background-color: #f83838!important;
+}
+/* 2.renk green */
+.bg-green{
+    background-color: rgb(5, 105, 5);
+}
+.txt-green{
+    color: rgb(99, 110, 99) !important;
+    text-shadow: 1px 1px 2px #28262693;
+}
+
+.btn-green:hover{
+    background-color:  rgb(99, 110, 99) !important;
+}
+/* 3.renk blue */
+.bg-blue{
+    background-color: rgb(35, 35, 228);
+}
+.txt-blue{
+    color: rgb(167, 167, 213) !important;
+    text-shadow: 1px 1px 2px #28262693;
+}
+.btn-blue:hover{
+    background-color:  rgb(167, 167, 213) !important;
+}
+/* 4.renk pink */
+.bg-pink{
+    background-color: rgb(232, 51, 199);
+}
+.txt-pink{
+    color: rgb(191, 126, 162) !important;
+    text-shadow: 1px 1px 2px #28262693;
+}
+.btn-pink:hover{
+    background-color: rgb(191, 126, 162)  !important;
+}
+/* 5.renk turuncu */
+.bg-orange{
+    background-color: rgb(187, 70, 7);
+}
+.txt-orange{
+    color: rgb(193, 107, 60) !important;
+    text-shadow: 1px 1px 2px #28262693;
+}
+.btn-orange:hover{
+    background-color: rgb(193, 107, 60)  !important;
+}
+/* 6.renk siyah */
+.bg-black{
+    background-color: rgb(32, 30, 30);
+}
+.txt-black{
+    color: rgb(84, 81, 81) !important;
+    text-shadow: 1px 1px 2px #28262693;
+}
+.btn-black:hover{
+    background-color: rgb(84, 81, 81) !important;
+}
+/* 7.renk kahverengi */
+.bg-brown{
+    background-color: rgb(89, 23, 23);
+}
+.txt-brown{
+    color: rgb(83, 68, 68) !important;
+    text-shadow: 1px 1px 2px #28262693;
+}
+.btn-brown:hover{
+    background-color: rgb(83, 68, 68) !important;
+}
+/* 8.renk sarı*/
+.bg-yellow{
+    background-color: rgb(231, 231, 65);
+}
+.txt-yellow{
+    color: rgb(200, 200, 158) !important;
+    text-shadow: 1px 1px 2px #28262693;
+}
+.btn-yellow:hover{
+    background-color:rgb(200, 200, 158) !important;
+}
+/* 9.renk gri */
+.bg-grey{
+    background-color: rgb(148, 147, 147);
+}
+.txt-grey{
+    color:  rgb(195, 191, 191) !important;
+    text-shadow: 1px 1px 2px #28262693;
+}
+.btn-grey:hover{
+    background-color:rgb(195, 191, 191) !important;
+}
+/* 10.renk mor*/
+.bg-purple{
+    background-color: rgb(145, 31, 145);
+}
+.txt-purple{
+    color: rgb(147, 109, 147) !important;
+    text-shadow: 1px 1px 2px #28262693;
+}
+.btn-purple:hover{
+    background-color:rgb(195, 191, 191) !important;
+}
+/* 3.text-size - header-size*/
+
+
+.font-size1{
+    font-size: 14px;
+}
+.font-size2{
+    font-size: 16px;
+}
+.font-size3{
+    font-size: 18px;
+}
+.font-size4{
+    font-size: 20px;
+}
+.font-size5{
+    font-size: 22px;
+}
+.font-size6{
+    font-size: 24px;
+}
+.font-size7{
+    font-size: 26px;
+}
+.font-size8{
+    font-size: 28px;
+}
+.font-size9{
+    font-size: 30px;
+}
+.font-size10{
+    font-size: 32px;
+}
+/* başlık font-size  */
+.font-size-h1{
+    font-size: 20px;
+}
+.font-size-h2{
+    font-size: 30px;
+    
+}
+                                 /* 4.yazı fontu */
+.font-family-verd{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.font-family-calibri{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.font-family-times{
+    font-family:'Times New Roman', Times, serif;
+}
+.font-family-arial{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.font-family-monoco{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+                                /* 5.margin ve padding */
+.m0{
+    margin: 0px;
+}
+.m1{
+    margin: 4px 4px 4px 4px;
+}
+
+.ml2{
+    margin-left: 16px;
+}
+.mt3{
+    margin-top: 20px;
+}
+.mb4{
+    margin-bottom: 20px;
+}
+.mr5{
+    margin-right: 20px;
+}
+
+                                /*5. paddig kısmı*/
+.p0{
+    padding: 0;
+}
+.p1{
+    padding: 4px 4px 4px 4px ;
+}
+.pl2{
+    padding-left: 16px;
+}
+.pt3{
+    padding-top: 20px;
+}
+.pb4{
+    padding-bottom: 20px;
+}
+.pr5{
+    padding-right: 20px;
+}
+/*6. slider */
+.slider1{
+
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    border: 2px solid #ccc;
+    overflow: hidden;
+}
+.slider1-bg{
+
+    width: 400%;
+    left: 0px;
+
+    animation: slide infinite linear;
+    animation-duration: 15s;
+}
+.slider1-img{
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0px);
+    }
+    10% {
+        transform: translateX(0px);
+    }
+    25% {
+        transform: translateX(-800px);
+    }
+    35% {
+        transform: translateX(-800px);
+    }
+    50% {
+        transform: translateX(-1600px);
+    }
+    60% {
+        transform: translateX(-1600px);
+    }
+    75% {
+        transform: translateX(-2400px);
+    }
+    85% {
+        transform: translateX(-2400px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+ /* 2.slider */
+
+.slider2 {
+
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    border: 2px solid #ccc;
+    overflow: hidden;
+}
+.slider2-bg{
+
+    height: 400%;
+    left: 0px;
+
+    animation: slider2  infinite linear;
+    animation-duration: 10s;
+}
+.slider2-img{
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+@keyframes slider2  {
+    0% {
+        transform: translateY(0px);
+    }
+    10% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(-300px);
+    }
+    35% {
+        transform: translateY(-300px);
+    }
+    50% {
+        transform: translateY(-600px);
+    }
+    60% {
+        transform: translateY(-600px);
+    }
+    75% {
+        transform: translateY(-900px);
+    }
+    85% {
+        transform: translateY(-900px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+ /*7. tablolar */
+ /* /Tablo/
+ /Bordered Tablo/ */
+ .bordered-table{
+     border: 2px solid gray;
+ 
+ }
+ 
+ .bordered-table th,
+ .bordered-table td{
+     padding: var(--mp1);
+     border:2px solid ;
+     text-align: left;
+     background-color: white;
+ }
+ 
+ .color{
+     background-color: red;
+ }
+ 
+ /* Striped Tablo */
+ .striped-table{
+     width: 100%;
+ }
+ .striped-table th,
+ .striped-table td{
+     padding: 10px;
+     border-bottom:2px solid black;
+     text-align: left;
+ }
+ 
+ .striped-table tbody tr:nth-child(odd) {
+     background-color: white;
+ }
+ 
+ /* Hoverable Tablo */
+ .hoverable-table{
+     width: 100%;
+ }
+ .hoverable-table th,
+ .hoverable-table td{
+     padding: 10px;
+     border-bottom:2px solid gray;
+     text-align: left;
+ }
+ .hoverable-table tbody tr:hover {
+     background-color:rgb(36, 123, 140);
+ }
+ 
+ /* Responsive Tablo */
+ .responsive-table{
+     width: 100%;
+     border-collapse: collapse;
+ }
+ .responsive-table th,
+ .responsive-table td{
+     padding: 10px;
+     border-bottom:2px solid gray;
+     text-align: left ;
+ }     
+/* 8.images */
+.image1{
+    width: 100%;
+}
+.image2{
+    width: 100%;
+    border-radius: 30%;
+}
+/* 9.buton */
+.but-2{
+    background-color: rgb(119, 124, 189,0.2);
+    color: white;
+    border-radius: 4px;
+    padding:2px 20px;
+    font-weight: bold;
+    border: 3px solid rgb(119, 124, 189) ;
+}
+.but-2:hover{
+    background-color:  rgb(119, 124, 189) ;
+    color: white;
+    font-weight: bold;
+}
+.but-3{
+    background-color: rgb(105, 169, 81);
+    color: white;
+    border-radius: 6px;
+    padding:2px 22px;
+    font-weight: bold;
+    border:3px solid rgb(38, 55, 3) ;
+}
+.but-3:hover{
+    background-color: rgb(38, 55, 3) ;
+    color: rgb(238, 237, 237);
+    font-weight: bold;
+}
+.but-4{
+    background-color: rgb(198, 89, 89);
+    color: white;
+    border-radius: 6px;
+    padding:2px 22px;
+    font-weight: bold;
+    border:3px solid rgb(219, 28, 28) ;
+}
+.but-4:hover{
+    background-color: rgb(219, 28, 28) ;
+    color: rgb(238, 237, 237);
+    font-weight: bold;
+}
+.but-5{
+    background-color:rgb(128, 190, 190);
+    color: white;
+    border-radius: 6px;
+    padding:2px 22px;
+    font-weight: bold;
+    border:3px solid rgb(22, 121, 121) ;
+}
+.but-5:hover{
+    background-color:  rgb(22, 121, 121) ;
+    color: rgb(238, 237, 237);
+    font-weight: bold;
+}
+.but-6{
+    background-color: rgb(224, 191, 216);
+    color: white;
+    border-radius: 6px;
+    padding:2px 22px;
+    font-weight: bold;
+    border:3px solid  rgb(226, 148, 207) ;
+}
+.but-6:hover{
+    background-color:  rgb(226, 148, 207) ;
+    color: rgb(238, 237, 237);
+    font-weight: bold;
+}
+.but-7{
+    background-color:rgb(125, 97, 158);
+    color: white;
+    border-radius: 6px;
+    padding:2px 22px;
+    font-weight: bold;
+    border:3px solid rgb(82, 31, 144) ;
+}
+.but-7:hover{
+    background-color:  rgb(82, 31, 144) ;
+    color: rgb(238, 237, 237);
+    font-weight: bold;
+}
+.but-8{
+    background-color: rgb(203, 199, 143);
+    color: white;
+    border-radius: 6px;
+    padding:2px 22px;
+    font-weight: bold;
+    border:3px solid  rgb(199, 188, 36) ;
+}
+.but-8:hover{
+    background-color:  rgb(199, 188, 36) ;
+    color: rgb(238, 237, 237);
+    font-weight: bold;
+}
+.but-9{
+    background-color:  rgb(227, 129, 160);
+    color: white;
+    border-radius: 6px;
+    padding:2px 22px;
+    font-weight: bold;
+    border:3px solid   rgb(247, 0, 78) ;
+}
+.but-9:hover{
+    background-color:  rgb(247, 0, 78) ;
+    color: rgb(238, 237, 237);
+    font-weight: bold;
+}
+.but-10{
+    background-color:  rgb(83, 82, 82);
+    color: white;
+    border-radius: 6px;
+    padding:2px 22px;
+    font-weight: bold;
+    border:3px solid  rgb(0, 0, 0) ;
+}
+.but-10:hover{
+    background-color:  rgb(0, 0, 0) ;
+    color: rgb(238, 237, 237);
+    font-weight: bold;
+}
+.but-11{
+    background-color: rgb(232, 180, 85);
+    color: white;
+    border-radius: 6px;
+    padding:2px 22px;
+    font-weight: bold;
+    border:3px solid rgb(251, 164, 3) ;
+}
+.but-11:hover{
+    background-color:  rgb(251, 164, 3) ;
+    color: rgb(238, 237, 237);
+    font-weight: bold;
+}
+                            /*10. owerflow  */
+.overflow{
+    width:100%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+/* display:flex
+    justify-content:center   x de ortalar
+    align-item:center        y de ortalar 
+    eger her ikisini dekullanırsak merkezde ortalar 
+
+
+*/
+
+/* 11. nav */
+
+.ul-1{
+    list-style: none;
+    padding: 0;
+}
+.li-1{
+    display: inline;
+
+}
+.a-1{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    border: 6px grey;
+    padding: 12px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px gray ;
+    margin: 18px;
+}
+.a-1:hover{
+    color: blue;
+}
+/* 11.2.nav */
+
+.ul-2{
+    list-style: none;
+    padding: 0;
+}
+.li-2{
+    display: block;
+    margin: 40px 0px;
+}
+.a-2{
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(240, 235, 235);
+    background-color: rgb(174, 17, 17);
+    padding: 12px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px gray ;
+    
+}
+.a-2:hover{
+    color:black;
+    background-color: rgb(154, 91, 91);
+}
+/* 11.3.nav  normal ne demek sor birine ? */
+
+/* 13-12-11de eksikler var 10-9-1 */
+/* 12. dropdown menü */
+.navbar li{
+    display: inline;
+   }
+   .navbar li a{
+       background-color: rgb(8, 9, 92);
+       color: white;
+       padding: 10px 20px;
+       border-radius: 5px;
+       margin: 5px;
+       text-decoration: none;
+   }
+   .dropdown{
+       position: relative;
+       display: inline-block;
+   }
+   .dropdown .dropdown-menu{
+       display: none;
+   }
+   
+   .dropdown-menu{
+       margin-top: 10px;
+       display: none;
+       margin-left: 200px;
+       position: absolute;
+       width: 200px;
+       height: auto;
+       padding: 10px!important;
+       background-color: rgb(160, 157, 212);
+   }
+   .dropdown-menu .menu{
+       list-style: none;
+       padding-left: 0;
+   }
+   .dropdown-menu .menu li{
+       display: block;
+       background-color: rgb(253, 253, 253);
+       color: rgb(5, 0, 0);
+       padding: 10px 20px;
+       margin-bottom: 10px;
+       border-radius: 5px;
+   }
+   .dropdown:hover .dropdown-menu{
+       display: block;
+   }
+
